@@ -96,7 +96,7 @@ __device__ __forceinline__ void U2F(double *U, double *F) {
   F[1] = density * pow(velocity, 2) + pressure;
   F[2] = (density * energy + pressure) * velocity;
 }
-/*calculate the mulplication of Matrix and vector*/
+/*calculate the mulplication of Matrix and Vector*/
 __device__ __forceinline__ void MMV(double *M, double *V) {
   double tmp[3];
   tmp[0] = V[0];

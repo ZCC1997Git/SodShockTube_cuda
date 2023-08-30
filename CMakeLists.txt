@@ -7,7 +7,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 enable_language(CUDA)
 find_package(CUDA REQUIRED)
-find_package(CUDAToolkit REQUIRED)
+# find_package(CUDAToolkit REQUIRED)
 set(CUDA_NVCC_FLAGS "-rdc=true")
 
 file(GLOB_RECURSE CPU_sources CONFIGURE_DEPENDS ./src/CPU/*.cpp)

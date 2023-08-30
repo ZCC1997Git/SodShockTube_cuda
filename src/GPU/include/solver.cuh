@@ -35,7 +35,7 @@ struct gpuU {
   double *u2 = nullptr;
   double *u3 = nullptr;
 };
-struct vector {
+struct Vector {
   double rou_r;
   double rou_u;
   double rou_e;
@@ -54,7 +54,7 @@ private:
   int size;
   double dt, dx, t;
   status *data = nullptr;
-  vector *U = nullptr;
+  Vector *U = nullptr;
   /*gpu*/
   gpuStatus gpu_data;
   gpuU gpu_U;

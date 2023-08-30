@@ -33,7 +33,7 @@ Euler::Euler(int size, double t) {
   dx = 1.0 / size;
   dt = 0.0001;
   data = new status[size];
-  U = new vector[size];
+  U = new Vector[size];
   /*gpu_data*/
   cudaMalloc((void **)&(gpu_data.x), size * sizeof(double));
   cudaMalloc((void **)&(gpu_data.rou), size * sizeof(double));
