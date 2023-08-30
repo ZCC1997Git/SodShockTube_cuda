@@ -216,7 +216,9 @@ void Euler::output(string name) const
 	ofstream out(name);
 	for (int i = 0; i <= size - 1; i++)
 	{
-		out << data[i].x << '\t' << data[i].p << endl;
+		// out << data[i].x << '\t' << data[i].p << endl;
+		out << data[i].x << '\t' << data[i].u << '\t' << data[i].p
+			<< '\t' << data[i].rou << '\t' << data[i].T << endl;
 	}
 	out.close();
 }
