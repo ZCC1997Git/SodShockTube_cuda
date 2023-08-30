@@ -8,4 +8,4 @@ solve the sod shock wave problem using CPU and CUDA
 2. cd test && mkdir output
 3. sh test.sh
 
-the simulation result are stored as a figure named SimulationResult.png, and more detail data can be found in test/output
+the simulation results are stored as one figure named SimulationResult.png, and more detailed data can be found in test/output
