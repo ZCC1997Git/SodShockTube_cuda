@@ -1,6 +1,6 @@
-# SOD-ShockWave Solver
+# SOD-ShockTube Solver
 
-solve the sod shock wave problem using CPU and CUDA
+solve the sod shock Tube problem using CPU and CUDA
 
 # using method
 
