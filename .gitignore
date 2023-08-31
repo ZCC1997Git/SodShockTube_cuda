@@ -1,0 +1,4 @@
+./build/*
+./test/SodWave_*
+./test/Simulation*
+./test/output/*

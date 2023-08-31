@@ -19,7 +19,7 @@ add_executable(SodWave_CPU ${CPU_sources})
 target_include_directories(SodWave_CPU PUBLIC ./src/CPU/include)
 add_executable(SodWave_GPU ${GPU_sources})
 target_include_directories(SodWave_GPU PUBLIC ./src/GPU/include)
-target_compile_options(SodWave_GPU PUBLIC -rdc=true -use_fast_math)
+target_compile_options(SodWave_GPU PUBLIC -rdc=true)
 set_target_properties(SodWave_GPU PROPERTIES CUDA_RESOLVE_DEVICE_SYMBOLS ON
                              RUNTIME_OUTPUT_DIRECTORY
                                  "${CMAKE_SOURCE_DIR}/build")
